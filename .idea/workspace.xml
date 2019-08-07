@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e30e32e0-5498-4d0d-8f96-82360754b831" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/boards/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/boards/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/topic_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/topic_posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/pagination.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boards/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -22,6 +20,15 @@
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/includes/pagination.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-272">
+              <caret line="29" column="93" lean-forward="true" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -34,15 +41,6 @@
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/topics.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -145,7 +143,6 @@
         <option value="$PROJECT_DIR$/boards/forms.py" />
         <option value="$PROJECT_DIR$/templates/reply_topic..html" />
         <option value="$PROJECT_DIR$/templates/home.html" />
-        <option value="$PROJECT_DIR$/templates/includes/pagination.html" />
         <option value="$PROJECT_DIR$/templates/my_account.html" />
         <option value="$PROJECT_DIR$/accounts/views.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
@@ -159,12 +156,13 @@
         <option value="$PROJECT_DIR$/boards/admin.py" />
         <option value="$PROJECT_DIR$/templates/topic_posts.html" />
         <option value="$PROJECT_DIR$/boards/views.py" />
+        <option value="$PROJECT_DIR$/templates/includes/pagination.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="140" />
-    <option name="y" value="392" />
+    <option name="x" value="100" />
+    <option name="y" value="397" />
     <option name="width" value="1515" />
     <option name="height" value="760" />
   </component>
@@ -190,6 +188,12 @@
               <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="myproject" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,10 +249,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="112" y="314" width="1212" height="608" extended-state="0" />
+    <frame x="80" y="318" width="1212" height="608" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24936171" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24936171" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -259,7 +263,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32874015" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.34453782" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.34453782" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.8122363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -416,13 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/includes/pagination.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -534,6 +531,13 @@
           <folding>
             <element signature="e#0#64#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/includes/pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="29" column="93" lean-forward="true" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="93" />
         </state>
       </provider>
     </entry>
