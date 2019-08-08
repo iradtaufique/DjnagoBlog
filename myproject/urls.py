@@ -18,6 +18,7 @@ from django.contrib import admin
 
 from boards import views
 from accounts import views as accounts_views
+
 from django.contrib.auth import views as auth_views
 urlpatterns = [
     url(r'^$', views.BoardListView.as_view(), name='home'),
@@ -64,6 +65,7 @@ urlpatterns = [
 
    url(r'^settings/account/$', accounts_views.UserUpdateView.as_view(), name='my_account'),
 
+   url(r'^profile/$', accounts_views.profile, name='profile'),
 
 
 

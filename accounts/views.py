@@ -29,3 +29,8 @@ class UserUpdateView(UpdateView):
 
     def get_object(self, queryset=None):
         return self.request.user
+
+
+def profile(request):
+    return render(request, 'user_profile.html')
+
