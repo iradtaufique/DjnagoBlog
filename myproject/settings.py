@@ -46,6 +46,11 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+
+    'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -126,10 +131,16 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+
 
 STATIC_URL = '/static/'
 
+
+#extra place for collecsattic to find static files
 STATICFILES_DIRS=[os.path.join(BASE_DIR, 'static')]
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 LOGIN_URL = 'login'
 LOGOUT_REDIRECT_URL = 'home'
@@ -138,3 +149,4 @@ LOGIN_REDIRECT_URL = 'home'
 EMAIL_BACKEND= 'django.core.mail.backends.console.EmailBackend'
 
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
